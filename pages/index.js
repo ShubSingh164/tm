@@ -4,11 +4,32 @@ import Link from "next/link";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Admin from "layouts/Admin";
 
 export default function Index() {
   return (
     <>
-      <IndexNavbar fixed />
+      {/* <Admin /> */}
+      <div className="flex items-center justify-center h-screen w-screen bg-gray-100">
+        <section className="bg-white p-8 rounded-lg shadow-lg max-w-lg text-center">
+          <h2 className="text-2xl font-bold mb-4">Terms and Conditions</h2>
+          <p className="text-gray-600 mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <Link legacyBehavior href="/admin/dashboard">
+            <p className="bg-blue-500 cursor-pointer text-black px-6 py-2 rounded-lg hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              Agree
+            </p>
+          </Link>
+        </section>
+      </div>
+      {/* <IndexNavbar fixed />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -661,7 +682,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

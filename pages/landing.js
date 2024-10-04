@@ -32,9 +32,7 @@ export default function Landing() {
                     Your story starts with us.
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
-                    based on the Tailwind CSS design system.
+                    This is a Landing Page you can build using Taskly.
                   </p>
                 </div>
               </div>
@@ -129,7 +127,7 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <Link  legacyBehavior href="/">
+                <Link legacyBehavior href="/">
                   <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
                     Check Notus NextJS!
                   </a>

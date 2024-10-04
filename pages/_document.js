@@ -14,6 +14,9 @@ class MyDocument extends Document {
             sizes="76x76"
             href="/img/brand/apple-icon.png"
           />
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="apple-touch-icon" href="/icon-192x192.png" />
+          <meta name="theme-color" content="#000000" />
         </Head>
         <body className="text-blueGray-700 antialiased">
           <div id="page-transition"></div>

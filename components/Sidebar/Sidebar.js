@@ -21,12 +21,12 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link  legacyBehavior href="/">
+          <Link legacyBehavior href="/">
             <a
               href="#pablo"
-              className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+              className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-xl uppercase font-bold p-4 px-0"
             >
-              Notus NextJS
+              Taskly
             </a>
           </Link>
           {/* User */}
@@ -49,12 +49,12 @@ export default function Sidebar() {
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
-                  <Link  legacyBehavior href="/">
+                  <Link legacyBehavior href="/">
                     <a
                       href="#pablo"
                       className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
                     >
-                      Notus NextJS
+                      Taskly
                     </a>
                   </Link>
                 </div>
@@ -90,7 +90,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link  legacyBehavior href="/admin/dashboard">
+                <Link legacyBehavior href="/admin/dashboard">
                   <a
                     href="#pablo"
                     className={
@@ -114,7 +114,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link  legacyBehavior href="/admin/settings">
+                <Link legacyBehavior href="/admin/settings">
                   <a
                     href="#pablo"
                     className={
@@ -138,7 +138,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link  legacyBehavior href="/admin/tables">
+                <Link legacyBehavior href="/admin/tables">
                   <a
                     href="#pablo"
                     className={
@@ -162,7 +162,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link  legacyBehavior href="/admin/maps">
+                <Link legacyBehavior href="/admin/maps">
                   <a
                     href="#pablo"
                     className={
@@ -196,7 +196,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link  legacyBehavior href="/auth/login">
+                <Link legacyBehavior href="/auth/login">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -208,7 +208,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link  legacyBehavior href="/auth/register">
+                <Link legacyBehavior href="/auth/register">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -223,14 +223,14 @@ export default function Sidebar() {
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            {/* <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               No Layout Pages
-            </h6>
+            </h6> */}
             {/* Navigation */}
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
-              <li className="items-center">
-                <Link  legacyBehavior href="/landing">
+              {/* <li className="items-center">
+                <Link legacyBehavior href="/dashboard">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -239,10 +239,10 @@ export default function Sidebar() {
                     Landing Page
                   </a>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="items-center">
-                <Link  legacyBehavior href="/profile">
+                <Link legacyBehavior href="/profile">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -257,11 +257,11 @@ export default function Sidebar() {
             {/* Divider */}
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
-            <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+            {/* <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               Documentation
-            </h6>
+            </h6> */}
             {/* Navigation */}
-            <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
+            {/* <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus"
@@ -349,7 +349,7 @@ export default function Sidebar() {
                   VueJS
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </nav>
